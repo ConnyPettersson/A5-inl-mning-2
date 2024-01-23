@@ -1,0 +1,22 @@
+{
+  "name": "lektion-4-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon .",
+    "sass:watch": "sass --no-source-map --watch src/main.scss main.css",
+    "sass:compile": "sass --no-source-map src/main.scss main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
